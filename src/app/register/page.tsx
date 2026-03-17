@@ -1,5 +1,7 @@
 'use client'
 
+export const dynamic = 'force-dynamic'
+
 import { useState, useCallback } from 'react'
 import { useRouter } from 'next/navigation'
 import { ArrowLeft, CheckCircle, User, Loader2 } from 'lucide-react'
